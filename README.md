@@ -5,6 +5,7 @@ Password Guru is a library that makes it simple to make a secure website.
 Simply download the source code from github, add it into your website file system and begin using the resources.
 
 All of the resources will be provided using calls to javascript methods.
+
 EXAMPLE:
 Lets say that you are using JQuery to extract your HTML inputs to use in your javascript.
 You would grab the username and password with lines of code like this:
