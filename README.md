@@ -55,7 +55,7 @@ var (
 
    // this is the pointer to the database we will be working with
    // this is a "global" variable (sorta kinda, but you can use it as such)
-db *sql.DB
+   db *sql.DB
 )
 
 func main() {
