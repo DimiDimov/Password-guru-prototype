@@ -47,15 +47,15 @@ you will want to store both of these in your database. An example of this is sho
 
 import (
 
-	// this is Go's built-in sql library
-	"database/sql"
+   // this is Go's built-in sql library
+   "database/sql"
 )
 
 var (
 
-	// this is the pointer to the database we will be working with
-	// this is a "global" variable (sorta kinda, but you can use it as such)
-	db *sql.DB
+   // this is the pointer to the database we will be working with
+   // this is a "global" variable (sorta kinda, but you can use it as such)
+db *sql.DB
 )
 
 func main() {
