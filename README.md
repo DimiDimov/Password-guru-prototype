@@ -1,7 +1,7 @@
 # Password-guru-prototype
 Password Guru is a library that makes it simple to make a secure website. 
 
-                                          CHECKING PASSWORDS
+                                               CHECKING PASSWORDS
 Simply download the source code from github, add it into your website file system and begin using the resources.
 
 All of the resources will be provided using calls to javascript methods.
@@ -25,7 +25,7 @@ The strengthResult that is returned will be a String that is either pass or the 
 and others...
 
 
-                                          SECURE PASSWORD STORAGE
+                                                 SECURE PASSWORD STORAGE
 When storing passwords in your database you will want to use a secure hashing algorithm that is salted then hashed.
 We have implemented this for you, to use it just download the golang code and import it into your project.
 
@@ -63,3 +63,15 @@ func main() {
     // This isn't the best technique, but it is the simplest one for heroku
     db, errd = sql.Open("postgres", os.Getenv("DATABASE_URL"))
 }
+
+
+                                                       Another header
+more info
+more info
+more info
+more info
+more info
+more info
+more info
+more info
+more info
